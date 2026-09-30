@@ -29,7 +29,7 @@
 
 ## Task C — API validation
 
-- **What the new API test verifies:**
+- **What the new API test verifies: The test verifies that a new task can be created using the `POST /tasks` endpoint. It checks that the response returns status code `201`, contains the expected task fields, and that the title, description, and status match the values sent in the request.**
 
 ## Task D — Bug / usability / improvement report
 
