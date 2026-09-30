@@ -24,8 +24,8 @@
 
 ## Task B — New test
 
-- **Scenario covered:**
-- **Why this scenario matters / why it was missing:**
+- **Scenario covered: Cancelling an edit does not update the task**
+- **Why this scenario matters / why it was missing: The existing tests check that an edit can be saved, but they don't check what happens when the user cancels the edit. I added this test to make sure any changes are discarded and the task stays the same.**
 
 ## Task C — API validation
 
