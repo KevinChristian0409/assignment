@@ -33,11 +33,13 @@
 
 ## Task D — Bug / usability / improvement report
 
-- **What I observed:**
-- **Steps to reproduce (if applicable):**
-- **Why it matters:**
-- **Suggested fix or improvement:**
+- **What I observed: Clicking the Delete button removes the task immediately without asking the user to confirm the action.**
+- **Steps to reproduce (if applicable): 1.Open the Task Manager 2. Find any task in the task list 3.Click the Delete button 4.The task is removed immediately**
+- **Why it matters: A user could accidentally delete a task by clicking the Delete button by mistake.**
+- **Suggested fix or improvement: Add a confirmation message before deleting a task, such as asking the user if they are sure they want to delete it. This would give the user a chance to cancel the action.**
 
 ## Anything else you'd like us to know
 
--
+- - Coincidentally, I recently worked on a mini Jira-style project, so I found this assessment quite familiar and enjoyable to work through.
+
+- One small note: I have VS Code configured to run Prettier automatically when I save files, so some files may show formatting changes in the commits in addition to the changes related to the assessment.
